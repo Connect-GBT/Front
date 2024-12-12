@@ -139,7 +139,7 @@ function Login() {
           />
         </InputBox>
       </InputContainer>
-      <LoginButton onClick={()=> navigate('/introduction')}>로그인</LoginButton>
+      <LoginButton onClick={()=> navigate('/Main')}>로그인</LoginButton>
       <SubLinks onClick={() => navigate('/signup')}>
         아이디 찾기 | 비밀번호 찾기<br/>
         회원가입하기
